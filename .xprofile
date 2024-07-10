@@ -1,0 +1,18 @@
+#!/bin/sh
+xrandr --output eDP-1 --mode 1920x1200 &
+# Change language layout
+setxkbmap -model pc104 -layout us,ara -variant ,, -option grp:win_space_toggle &
+# start nm-applet
+nm-applet &
+# start st
+slstatus &
+#  Restores the wallpaper
+#nitrogen --restore &
+# set bg
+setbg ~/Pictures/wallpapers/title/winter_hero.jpg &
+# screenshot
+flameshot &
+#sxhkd key
+sxhkd -m 1 &
+
+$TERMINAL -e tmux &

@@ -1,0 +1,22 @@
+name: install test
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: install libs
+      run: sudo apt-get install libxinerama1 libxinerama-dev
+    - name: make install test
+      run: cd src &&\ 
+        sudo make install 
+    - name: make uninstall
+      run: sudo make uninstall

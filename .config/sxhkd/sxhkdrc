@@ -1,0 +1,35 @@
+##---------- Keybindings for WM ----------##
+
+# Terminal
+super + return
+	$TERM
+
+super + t;{a,k,z}
+	{alacritty,kitty,zellij}
+
+# Lockscreen
+super + shift + x
+    betterlockscreen -l
+
+##---------- Applications ----------##
+
+# Lunchers (rofi, dmenu)
+super + shift + r
+	    rofi -show
+# dmenu
+super + p
+	$HOME/.scripts/dmenu_run
+
+# Web browsers
+super + w; {f,c,t,b,q}
+	{firefox-developer-edition,google-chrome,brave,tor-browser,qutebrowser}
+
+# applications
+super + d; {d,o,a}
+	{discord,obsidian,anki}
+
+super + shift + j
+	jetbrains-toolbox
+
+super + s
+	flameshot

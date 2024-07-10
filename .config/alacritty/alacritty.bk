@@ -1,0 +1,66 @@
+
+items:
+  - colors:
+      name: erebus
+      author: lzmkalos
+      primary:
+        background: "#111111"
+        foreground: "#EEFFFF"
+      cursor:
+        text: "#111111"
+        cursor: "#888888"
+      normal:
+        black: "#000000"
+        red: "#A54C3f"
+        green: "#C3E88d"
+        yellow: "#FFCB6B"
+        blue: "#497099"
+        magenta: "#a16a94"
+        cyan: "#68A3A4"
+        white: "#F7F7F7"
+      bright:
+        black: "#5c5855"
+        red: "#A54C3f"
+        green: "#C3E88d"
+        yellow: "#FFCB6B"
+        blue: "#497099"
+        magenta: "#a16a94"
+        cyan: "#68A3A4"
+        white: "#F7F7F7"
+  - theme: erebus.dark
+
+font:
+  size: 8
+colors:
+  # Default colors
+  primary:
+    background: '#111111'
+    foreground: '#EEFFFF'
+
+window:
+  padding:
+    x: 9
+    y: 9
+
+  # Normal colors
+normal:
+   black: '#000000'
+   red: '#A54C3f'
+   green: '#C3E88d'
+   yellow: '#FFCB6B'
+   blue: '#497099'
+   magenta: '#C792EA'
+   cyan: '#68A3A4'
+   white: '#FCFCFA'
+
+     # Bright colors
+bright:
+  black: '#727072'
+  red: '#A54C3f'
+  green: '#C3E88d'
+  yellow: '#FFCB6B'
+  blue: '#497099'
+  magenta: '#C792EA'
+  cyan: '#68A3A4'
+  white: '#FCFCFA'
+theme: erebus.dark 

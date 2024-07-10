@@ -1,0 +1,23 @@
+[font]
+size = 8.5
+
+[colors.normal]
+   black= '#000000'
+   red='#A54C3f'
+   green= '#C3E88d'
+   yellow= '#FFCB6B'
+   blue='#497099'
+   magenta= '#C792EA'
+   cyan= '#68A3A4'
+   white= '#FCFCFA'
+
+
+[colors.bright]
+  black='#727072'
+  red= '#A54C3f'
+  green= '#C3E88d'
+  yellow= '#FFCB6B'
+  blue= '#497099'
+  magenta= '#C792EA'
+  cyan='#68A3A4'
+  white='#FCFCFA'
